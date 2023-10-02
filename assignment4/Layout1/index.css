@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 10px; /* Adjust this for spacing between elements */
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-color: lightgray;
+    height: 100px;
+    margin-right: 60%;
+}
+
+.items {
+    background-color: lightgray;
+    margin: 24px 0px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.items span{
+    padding: 8px 12px 8px 56px;
+}
+
+.main-content {
+    background-color: lightgray;
+    grid-column: 1 / -1; /* Span all columns */
+    height: 300px;
+}
+
+.product {
+    background-color: lightgray;
+    height: 150px;
+}
+
+.copyright {
+    background-color: lightgray;
+    padding: 15px;
+    grid-column: 1 / -1; /* Span all columns */
+    text-align: center;
+}
